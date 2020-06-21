@@ -1,0 +1,21 @@
+{
+    "name": "monokatis",
+    "displayName": "Monokatis",
+    "description": "from Monoki's ui color scheme and Ncotis's syntax highlight",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokatis",
+                "uiTheme": "vs-dark",
+                "path": "./themes/monokatis-color-theme.json"
+            }
+        ]
+    }
+}
